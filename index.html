@@ -6,75 +6,15 @@
 
 <title>Mechanical Industry Website</title>
 <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./bootstrap/aos/aos.css">
 </head>
-
 <body>
 
-
-<nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
-<div class="container">
-
-<a class="navbar-brand" href="#">YOUR LOGO</a>
-
-<button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
- aria-controls="offcanvasWithBothOptions"><span class="navbar-toggler-icon"></span></button>
-
-<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
-<span class="navbar-toggler-icon"></span>
-</button>
-
-<div class="nav-glass">
-
-<div class="collapse navbar-collapse" id="nav">
-
-<ul class="navbar-nav ms-auto nav-list">
-<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-<li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-<li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-<li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
-<li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-<li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
-<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-
-<li class="nav-item ms-lg-5">
-<a class="btn btn-orange">Request Quote</a>
-</li>
-
-</ul>
-
-</div>
-</div>
-
-</div>
-</nav>
-
-<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">YOUR LOGO</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-   <ul class="navbar-nav ">
-<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-<li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-<li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-<li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
-<li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-<li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
-<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-
-<li class="nav-item ms-lg-5">
-<a class="btn btn-orange">Request Quote</a>
-</li>
-
-</ul>
-  </div>
-</div>
-
+<div id="navbar"></div>
 <section class="hero position-relative">
 
-<!-- HERO SLIDER -->
 <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
 <div class="carousel-indicators">
@@ -101,23 +41,19 @@
 
 </div>
 
-
-<!-- OVERLAY -->
 <div class="hero-overlay"></div>
 
-
-<!-- HERO CONTENT -->
 <div class="container hero-content">
 
 <div class="row">
 
 <div class="col-lg-6">
 
-<h1 class="display-4 fw-bold text-white">
+<h1 class="display-4 fw-bold text-white" data-aos="fade-right">
 Industrial Safety & Mechanical Protection Solutions
 </h1>
 
-<button class="btn btn-light mt-3">Contact Us</button>
+<button class="btn btn-light mt-3" data-aos="fade-right">Contact Us</button>
 
 </div>
 
@@ -134,9 +70,9 @@ Industrial Safety & Mechanical Protection Solutions
 
 <div class="row align-items-center">
 
-<div class="col-lg-6">
-<h3 class="text-warning">OUR STORY</h3>
-<h2>Two Decades of <span class="text-warning">Protecting Lives</span></h2>
+<div class="col-lg-6" data-aos="fade-right">
+<h3 class="textstyle">OUR STORY</h3>
+<h2>Two Decades of <span class="textstyle">Protecting Lives</span></h2>
 
 <p>
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta esse dolorem commodi non itaque. Error voluptatibus veniam officiis hic neque, quibusdam nulla dicta aliquam exercitationem corrupti, sint at tempora architecto, velit quae? Rerum, eaque hic! Similique voluptatum assumenda quisquam numquam!
@@ -144,34 +80,34 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta esse dolorem comm
 
 </div>
 
-<div class="col-lg-6">
+<div class="col-lg-6" data-aos="fade-left">
 
 <div class="row g-3">
 
 <div class="col-6">
 <div class="counter-box">
-<h3 class="text-warning">20+</h3>
+<h3 class="textstyle">20+</h3>
 <p>Years of Experience</p>
 </div>
 </div>
 
 <div class="col-6">
 <div class="counter-box">
-<h3 class="text-warning">5K+</h3>
+<h3 class="textstyle">5K+</h3>
 <p>Happy Clients</p>
 </div>
 </div>
 
 <div class="col-6">
 <div class="counter-box">
-<h3 class="text-warning">500+</h3>
+<h3 class="textstyle">500+</h3>
 <p>Products</p>
 </div>
 </div>
 
 <div class="col-6">
 <div class="counter-box">
-<h3 class="text-warning">25Cr+</h3>
+<h3 class="textstyle">25Cr+</h3>
 <p>Annual Turnover</p>
 </div>
 </div>
@@ -195,68 +131,68 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta esse dolorem comm
 
 <h2>Our Products</h2>
 
-<button class="btn btn-orange">View All Products</button>
+<button class="btn btn-orange btn-animate" >View All Products</button>
 
 </div>
 
 <div class="row g-4">
 
-<div class="col-lg-4 col-md-6">
+<div class="col-lg-4 col-md-6 col-6 " data-aos="zoom-in">
 <div class="card product-card">
 <img src="./assets/image (1).png">
 <div class="card-body">
 <h6>FR-Flame Retardant Safety Garment</h6>
-<button class="btn btn-sm btn-warning text-white">View Details</button>
+<button class="btn btn-sm btn-orange text-white">View Details</button>
 </div>
 </div>
 </div>
 
-<div class="col-lg-4 col-md-6">
+<div class="col-lg-4 col-md-6 col-6" data-aos="zoom-in">
 <div class="card product-card">
 <img src="./assets/image (2).png">
 <div class="card-body">
 <h6>Kevlar Fire Resistant Products</h6>
-<button class="btn btn-sm btn-warning text-white">View Details</button>
+<button class="btn btn-sm btn-orange text-white">View Details</button>
 </div>
 </div>
 </div>
 
-<div class="col-lg-4 col-md-6">
+<div class="col-lg-4 col-md-6 col-6" data-aos="zoom-in">
 <div class="card product-card">
 <img src="./assets/image (3).png">
 <div class="card-body">
 <h6>Water Cool Jel Blanket</h6>
-<button class="btn btn-sm btn-warning text-white">View Details</button>
+<button class="btn btn-sm btn-orange text-white">View Details</button>
 </div>
 </div>
 </div>
 
-<div class="col-lg-4 col-md-6">
+<div class="col-lg-4 col-md-6 col-6" data-aos="zoom-in">
 <div class="card product-card">
 <img src="./assets/image (3).png">
 <div class="card-body">
 <h6>Water Cool Jel Blanket</h6>
-<button class="btn btn-sm btn-warning text-white">View Details</button>
+<button class="btn btn-sm btn-orange text-white">View Details</button>
 </div>
 </div>
 </div>
 
-<div class="col-lg-4 col-md-6">
+<div class="col-lg-4 col-md-6 col-6" data-aos="zoom-in">
 <div class="card product-card">
 <img src="./assets/image (3).png">
 <div class="card-body">
 <h6>Water Cool Jel Blanket</h6>
-<button class="btn btn-sm btn-warning text-white">View Details</button>
+<button class="btn btn-sm btn-orange text-white">View Details</button>
 </div>
 </div>
 </div>
 
-<div class="col-lg-4 col-md-6">
+<div class="col-lg-4 col-md-6 col-6" data-aos="zoom-in">
 <div class="card product-card">
 <img src="./assets/image (3).png">
 <div class="card-body">
 <h6>Water Cool Jel Blanket</h6>
-<button class="btn btn-sm btn-warning text-white">View Details</button>
+<button class="btn btn-sm btn-orange text-white">View Details</button>
 </div>
 </div>
 </div>
@@ -272,54 +208,104 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta esse dolorem comm
 
 <div class="container">
 
-<div class="d-flex justify-content-between mb-4">
+<div class="d-flex justify-content-between  mb-4">
 <h2>Latest Blog</h2>
-<a href="#" class="text-warning" style="text-decoration: none;">View All</a>
+<a href="#" class="textstyle" style="text-decoration: none;">View All</a>
 </div>
 
-<div class="row g-4">
+<div class="row g-4 ">
 
-<div class="col-lg-4 col-md-6">
-<img src="./assets/34162d747a0661e754230021d94dacf503ee1fbf.jpg" class="img-fluid">
-<h6 class="mt-2">Sustainable Practices Reducing Waste</h6>
-<a href="#" class="text-warning" style="text-decoration: none;">Read More</a>
-
-</div>
-
-<div class="col-lg-4 col-md-6">
-<img src="./assets/61bc29712184093399d239d65148f7c4b776a763.jpg" class="img-fluid">
-<h6 class="mt-2">Advanced Robotics Revolutionizing</h6>
-<a href="#" class="text-warning" style="text-decoration: none;">Read More</a>
-</div>
-
-<div class="col-lg-4 col-md-6">
-<img src="./assets/d94db90bf5715b53bb0cbe1247c3557ba5ba0d0b.png" class="img-fluid">
-<h6 class="mt-2">Top Benefits of Robotics</h6>
-<a href="#" class="text-warning" style="text-decoration: none;">Read More</a>
-</div>
+<div class="col-lg-4 col-md-6" data-aos="fade-up">
+  <div class="zoom-img">
+<img src="./assets/34162d747a0661e754230021d94dacf503ee1fbf.jpg" class="img-fluid"></div>
+<h6 class="mt-2 text-center">Sustainable Practices Reducing Waste</h6>
+<a href="#" class="textstyle d-block text-center" style="text-decoration: none;">Read More <i class="bi bi-arrow-up-right arrow-icon"></i></a>
 
 </div>
 
+<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+  <div class="zoom-img">
+<img src="./assets/61bc29712184093399d239d65148f7c4b776a763.jpg" class="img-fluid"></div>
+<h6 class="mt-2 text-center">Advanced Robotics Revolutionizing</h6>
+<a href="#" class="textstyle d-block text-center" style="text-decoration: none;">Read More <i class="bi bi-arrow-up-right arrow-icon"></i></a>
 </div>
 
+<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+  <div class="zoom-img">
+<img src="./assets/61bc29712184093399d239d65148f7c4b776a763.jpg" class="img-fluid"></div>
+<h6 class="mt-2 text-center">Top Benefits of Robotics</h6>
+<a href="#" class="textstyle d-block text-center" style="text-decoration: none;">Read More <i class="bi bi-arrow-up-right arrow-icon"></i></a>
+</div>
+</div>
+</div>
 </section>
 
 
-<section class="testimonial">
+<section class="testimonial py-5">
 
 <div class="container">
 
-<h2 class="text-center mb-4">What Our <span class="text-warning">Clients</span> Say</h2>
+<h2 class="text-center mb-4">
+What Our <span class="textstyle">Clients</span> Say
+</h2>
 
-<div class="testimonial-box">
-<span class="testimonial-quote"><i class="bi bi-quote fs-1"></i></span>
-<p>
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsum repellendus. Fugit suscipit exercitationem tempora et rerum consectetur ipsam autem.
-</p>
+<div id="carouselExampleIndicators" class="carousel slide">
 
-<img src="/assets/f1bef3ac0273088125d6caeab72fdf405fe3fd8a.png" width="50" height="50"/><br>
-<strong>Pankaj India</strong>
-<p>Solutions Provider</p>
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+  </div>
+
+  <div class="carousel-inner text-center">
+    <div class="carousel-item active">
+      <div class="testimonial-box">
+        <span class="testimonial-quote">
+          <i class="bi bi-quote fs-1"></i>
+        </span>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsum repellendus.
+        </p>
+        <img src="/assets/f1bef3ac0273088125d6caeab72fdf405fe3fd8a.png"
+        width="50" height="50" class="rounded-circle"/>
+        <br>
+        <strong>Pankaj India</strong>
+        <p>Solutions Provider</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="testimonial-box">
+        <span class="testimonial-quote">
+          <i class="bi bi-quote fs-1"></i>
+        </span>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <img src="/assets/f1bef3ac0273088125d6caeab72fdf405fe3fd8a.png"
+        width="50" height="50" class="rounded-circle"/>
+        <br>
+        <strong>Pankaj India</strong>
+        <p>Solutions Provider</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="testimonial-box">
+        <span class="testimonial-quote">
+          <i class="bi bi-quote fs-1"></i>
+        </span>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <img src="/assets/f1bef3ac0273088125d6caeab72fdf405fe3fd8a.png"
+        width="50" height="50" class="rounded-circle"/>
+        <br>
+        <strong>Pankaj India</strong>
+        <p>Solutions Provider</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 </div>
@@ -331,22 +317,22 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsum repell
 
 <div class="container">
 
-<div class="row">
+<div class="row g-4">
+  <div class="d-flex gap-2">
+        <i class="bi bi-gear textstyle"></i>
+<h6 class=" textstyle">FAQS</h6></div>
+<h2 class="mb-4">Frequently Asked <br> <strong>Questions</strong></h2>
+<div class="col-lg-6" data-aos="fade-right">
 
-<div class="col-lg-6">
-<img src="./assets/Container.png" class="rounded w-100" >
+<img src="./assets/Container.png" class="rounded faq-image">
 </div>
 
  
-<div class="col-lg-6">
-
-<h3 class="mb-4">Frequently Asked Questions</h3>
-
+<div class="col-lg-6" data-aos="fade-left">
 <div class="accordion" id="faq">
-
 <div class="accordion-item">
 <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#f1">
-What industries do you serve?
+What industries do you serve?  
 </button>
 <div id="f1" class="accordion-collapse collapse show">
 <div class="accordion-body">Manufacturing and heavy industries.</div>
@@ -390,13 +376,13 @@ How do you ensure product quality?
 
 <div class="row">
 
-<div class="col-lg-6">
+<div class="col-lg-6" data-aos="fade-right">
 <h6>REQUEST A QUOTE</h6>
 <h1>Lorem Ipsum is simply dummy</h1>
 <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quidem soluta facilis, nesciunt eos vero mollitia! Non impedit adipisci voluptas dolorem itaque deserunt assumenda veniam, ratione illo cupiditate alias excepturi!</P>
 </div>
 
-<div class="col-lg-4 ms-auto">
+<div class="col-lg-4 ms-auto" data-aos="fade-left">
 
 <div class=" p-4 rounded contact-glass">
 
@@ -421,53 +407,36 @@ How do you ensure product quality?
 
 </section>
 
+<div id="footer"></div>
+<button id="scrollTopBtn"
+class="btn" data-aos="zoom-in">
+  <i class="bi bi-arrow-up"></i>
+</button>
 
-<footer>
+<script>
+fetch("navbar.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("navbar").innerHTML = data;
+});
+</script>
 
-<div class="container">
+<script>
+fetch("footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
 
-<div class="row">
-
-<div class="col-lg-3">
-<h5>Company Name</h5>
-<p>We are committed to providing premium industrial solutions.</p>
-</div>
-
-<div class="col-lg-3">
-<h6>Company</h6>
-<ul class="list-unstyled">
-<li>About</li>
-<li>Careers</li>
-<li>Blog</li>
-</ul>
-</div>
-
-<div class="col-lg-3">
-<h6>Products</h6>
-<ul class="list-unstyled">
-<li>Safety Apparel</li>
-<li>Hand Gloves</li>
-<li>Safety Shoes</li>
-</ul>
-</div>
-
-<div class="col-lg-3">
-<h6>Contact</h6>
-<p>+91 123456789</p>
-<p>info@domain.com</p>
-</div>
-
-</div>
-
-<hr>
-
-<p class="text-center">Copyright © All Rights Reserved</p>
-
-</div>
-
-</footer>
-
+</script>
+<script src="/script.js"></script>
 <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+<script src="/bootstrap/aos/aos.js"></script>
+<script>
+  AOS.init({
+duration: 1000,
+once: true
+});
+</script>
 </body>
 </html>
