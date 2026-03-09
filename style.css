@@ -4,7 +4,7 @@
   --text-color: #ff9900;
   --border-radius: 10px;
 }
-html{
+html, body{
     overflow-x: hidden;
 }
 /*.hero{
