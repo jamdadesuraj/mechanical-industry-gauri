@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanical Industry Website</title>
+      <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+</head>
+</head>
+<body>
+    <div id="navbar"></div>
+    <section class="hero-section text-white d-flex align-items-center">
+        <div class="container">
+            <p class="banner-title">Terms & Conditions</p>
+            <div class="breadcrumb-text">
+                <a href="index.html">Home</a>
+                <span class="dot"><i class="bi bi-dot"></i></span>
+                <span class="active">Terms & Conditions</span>
+            </div>
+        </div>
+    </section>
+    <section class="terms-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-md-12">
+                    <div class="terms-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus beatae necessitatibus ratione. Ab eveniet amet minima id quo, voluptas veritatis?</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, alias quo accusamus odit quis error omnis iste iusto, ex at, soluta ullam! Eligendi rerum molestiae numquam eius amet dignissimos blanditiis maxime saepe asperiores quidem voluptatem nostrum qui eos repudiandae ullam ratione, corporis magni sit deserunt natus sunt unde omnis veniam!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime maiores commodi quis beatae expedita minima doloribus magni reprehenderit corrupti similique pariatur recusandae aliquam blanditiis quo est, facere dolores sapiente dolorem dignissimos ut? Ex totam deserunt repudiandae autem natus quia incidunt maiores asperiores, officia voluptas accusantium et magni explicabo alias eligendi ducimus doloribus repellendus eveniet! Saepe nisi distinctio ab consequatur nam at nesciunt tempore. Natus rem enim minus, eaque quo fugiat sapiente? Eveniet quisquam repellendus officiis! Temporibus, ratione porro fuga saepe ipsum sequi assumenda, eum voluptatibus amet blanditiis odio? Eaque omnis saepe quos doloremque cupiditate cum qui, ullam ea iusto illo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer"></div>
+    </section>
+
+    <script>
+fetch("navbar.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("navbar").innerHTML = data;
+});
+</script>
+
+<script>
+fetch("footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+
+<script src="/script.js"></script>
+<script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

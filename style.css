@@ -345,7 +345,8 @@ footer{
 
 .hero-section{
 height:350px;
-background:url(/assets/Rectangle\ 34.png) center/cover no-repeat;
+background:url(/assets/0c6ed1f284ad103f098347c986f9842aa4608b9f.jpg) center/cover no-repeat;
+background-position: contain;
 position:relative;
 }
 .banner-title{
@@ -394,6 +395,11 @@ background:#fff;
 color:#000;
 position:relative;
 overflow:hidden;
+position:relative;
+background-image:url("assets/bgimg.png");
+background-repeat:no-repeat;
+background-position:left bottom;
+background-size:450px;
 }
 
 .image-col{
@@ -474,7 +480,7 @@ margin-bottom:25px;
 
 .about-list li{
 margin-bottom:10px;
-color:#000;
+color:#222222;
 gap: 6px;
 }
 
@@ -512,8 +518,10 @@ margin-bottom:10px;
 
 .approach-hero{
 position:relative;
-background:url('/assets/Container.png') center/cover no-repeat;
-padding:120px 0 180px;
+background:url('/assets/e21bf34fd53480725a3ab1715a5c5b3122644103.jpg') center/cover no-repeat;
+padding:120px 0 150px;
+padding-top: 70px;
+padding-bottom: 200px;
 color:#fff;
 z-index: 1;
 margin-bottom: 10px;
@@ -541,8 +549,9 @@ margin-bottom:15px;
 }
 
 .approachhero-title{
-font-size:48px;
+font-size:42px;
 font-weight:300;
+line-height: 1.1;
 }
 
 .approachhero-title strong{
@@ -556,7 +565,7 @@ color:#ddd;
 }
 
 .mission-section{
-margin-top:-120px;
+margin-top:-160px;
 position: relative;
 z-index: 5;
 margin-bottom: 40px;
@@ -565,7 +574,7 @@ margin-bottom: 40px;
 .mission-box{
 background:#fff;
 border-radius:25px;
-box-shadow:0 10px 30px rgba(0,0,0,0.08);
+box-shadow:0 5px 10px rgba(0,0,0,0.08);
 overflow:hidden;
 }
 
@@ -941,4 +950,154 @@ transition:0.5s;
 
 .zoom-img:hover img{
 transform:scale(1.1);
+}
+
+/*************************** CONTACT US PAGE ******************************/
+.contact-section{
+padding:70px 0;
+background: #f5f5f5;
+position:relative;
+background-image:url("assets/bgimg.png");
+background-repeat:no-repeat;
+background-position:left bottom;
+background-size:450px;
+}
+
+.contact-text{
+color:#777;
+max-width:420px;
+margin-bottom:35px;
+line-height:1.6;
+}
+
+.contactdetail{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.contact-item{
+display:flex;
+gap:15px;
+padding:20px 0;
+border-bottom:1px solid #e6e6e6;
+}
+
+.contact-item:last-child{
+border-bottom:none;
+}
+
+.contacticon-box{
+width:50px;
+height:50px;
+background:#ff8a00;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:10px;
+font-size:20px;
+}
+
+.contact-item h6{
+margin:0;
+font-weight:600;
+}
+
+.contact-item p{
+margin:2px 0 0;
+font-size:14px;
+color:#777;
+}
+
+.contact-form-card{
+background:#f5f5f5;
+padding:40px;
+border-radius:18px;
+box-shadow:0 0 20px rgba(0,0,0,0.05);
+}
+
+.form-title{
+font-size:28px;
+margin-bottom:25px;
+}
+
+.form-control{
+height:48px;
+border-radius:10px;
+border:1px solid #ebebeb !important;
+padding-left:15px;
+}
+
+textarea.form-control{
+height:auto;
+padding-top:12px;
+}
+
+.form-control::placeholder{
+    color: #81848a;
+}
+
+.submit-btn{
+background:#ff8a00;
+border:none;
+color:#fff;
+padding:12px 24px;
+border-radius:8px;
+font-size:13px;
+font-weight:600;
+letter-spacing:0.5px;
+transition:0.3s;
+}
+
+.submit-btn:hover{
+background:#e77700;
+}
+.map-section iframe{
+width:100%;
+height:500px;
+border:0;
+}
+/************************* TERMS CONDITIONS PAGE **************************/
+.terms-content{
+background:#fff;
+padding:40px 45px;
+border-radius:6px;
+}
+
+.terms-content p{
+font-size:15px;
+line-height:1.8;
+color:#000;
+text-align: justify;
+margin-bottom:18px;
+}
+
+.terms-content h5{
+font-size:15px;
+font-weight:600;
+margin-top:25px;
+margin-bottom:10px;
+color:#222;
+}
+.policy-text p{
+font-size:14px;
+line-height:1.8;
+color:#555;
+text-align: justify;
+margin-bottom:20px;
+}
+
+.policy-text h6{
+font-size:14px;
+font-weight:600;
+margin:25px 0 10px;
+color:#222;
+}
+
+.policy-text{
+    background:#fff;
+padding:40px 45px;
+border-radius:6px;
+
 }

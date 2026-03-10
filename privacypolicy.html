@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanical Industry Website</title>
+ <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+      <div id="navbar"></div>
+    <section class="hero-section text-white d-flex align-items-center">
+        <div class="container">
+            <p class="banner-title">Privacy Policy</p>
+            <div class="breadcrumb-text">
+                <a href="index.html">Home</a>
+                <span class="dot"><i class="bi bi-dot"></i></span>
+                <span class="active">Privacy Policy</span>
+            </div>
+        </div>
+    </section>
+    <section class="terms-section">
+        <div class="container">
+            <div class="row g-5">
+              
+                <div class="col-lg-6">
+                    <div class="policy-text">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus facere, quod officiis magni ipsam quidem molestiae nam necessitatibus voluptatum quis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odit animi architecto sunt non ab culpa quas tenetur voluptatibus, deleniti doloribus tempora maxime eius itaque et? Fuga, magni ad. Impedit atque obcaecati quo soluta inventore in, eius quibusdam odio aliquam adipisci voluptatibus molestias debitis alias sapiente officiis asperiores iusto excepturi.</p>
+                    </div>
+                </div>
+                   <div class="col-lg-6">
+                    <div class="policy-text">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, animi.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A sint architecto reiciendis, magnam consectetur numquam provident voluptatibus sunt animi eaque? Iure obcaecati provident nihil voluptatibus cum, minus ut natus quis in et cumque eaque, dignissimos quos vero ab facere autem magni mollitia aliquid dolorem expedita! Earum deleniti officia repellendus animi.</p>
+                    </div>
+                   </div>
+            </div>
+        </div>
+    </section>
+    <div id="footer"></div>
+
+    <script>
+fetch("navbar.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("navbar").innerHTML = data;
+});
+</script>
+
+<script>
+fetch("footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script> 
+
+<script src="/script.js"></script>
+<script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
