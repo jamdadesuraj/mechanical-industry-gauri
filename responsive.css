@@ -1,3 +1,4 @@
+
 @media(max-width:991px){
 .experience{
 left: 210px !important;
@@ -18,9 +19,9 @@ left: 210px !important;
    display: none;
 }
 .product-hero-content{
-        position: absolute;
+        position: absolute !important;
     top: 100px !important;   
-    right: 0;
+    right: 0 !important;
 }
 .navbar .offcanvasbtn{
     font-size: 18px;
@@ -36,25 +37,26 @@ backdrop-filter: none;
 border: none;
 padding: 0;
 }
-.hero{
-    height: 60vh;
-}
-.hero-img{
-    height: 60vh;
-  
+
+footer{
+    text-align: center;
 }
 .nav-link{
-color:black!important;
-font-size:16px;
+color:black !important;
+font-size:16px !important;
 }
 
 .nav-link.active{
 color:#ff9f1c !important;
 }
-footer{
-    text-align: center;
+.hero{
+    width: 100% !important;
+  height: 30vh !important;
 }
-
+.hero-img{
+    width: 100% !important;
+  height: 30vh !important;
+}
 .quote{
     padding: 80px 40px;
 }
@@ -81,12 +83,15 @@ background-position:center !important;
 .hero .hero-content{
     top: 60% !important;
 }
+
+
 }
 
 @media(max-width:540px){
     .hero .hero-content h1{
-    font-size: 18px !important;
+    font-size: 20px !important;
 }
+
 .faq-image{
     width: 300px;
     height: 300px;
@@ -117,6 +122,9 @@ background-position:center !important;
 .hero-content{
     left: 0 !important;
 }
+.contact-form-card{
+    margin: 5px !important;
+}
 }
 @media(max-width:370px){
    .faq-image{
@@ -144,6 +152,54 @@ background-position:center !important;
 }
 }
 
-@media(min-width: 539px) and (max-width:996px){
-   
+
+@media(max-width:991px){
+    .image-col{
+margin-bottom:120px !important;
+min-height:400px !important;
+}
+
+.img-top{
+left:20px !important;
+width:180px !important;
+}
+
+.img-main{
+left:80px !important;
+width:280px !important;
+}
+
+.content-col{
+padding-left:0 !important;
+text-align:center !important;
+}
+
+.about-bottom{
+justify-content:center !important;
+}
+
+.approach-title{
+font-size:32px !important;
+}
+
+.approach-text{
+margin-top:20px !important;
+}
+
+.approach-card{
+margin-top:40px !important;
+}
+
+.history-title{
+font-size:32px !important;
+}
+
+.company-title{
+margin-top:30px !important;
+}
+
+.timeline-card{
+margin-bottom:30px !important;
+
+}
 }

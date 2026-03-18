@@ -317,7 +317,7 @@ input[type="file"]::file-selector-button{
     width: 500px;
     height: 300px;
 }
-@media (max-width: 991px) {
+/*@media (max-width: 991px) {
 .nav-glass{
     display: block;
 background: transparent;
@@ -334,7 +334,7 @@ padding: 0;
   height: 30vh !important;
 }
 .nav-link{
-color:black!important;
+color:black !important;
 font-size:16px;
 }
 
@@ -353,7 +353,7 @@ footer{
 }
 
 
-}
+}/*
 
 
 /*************************   ABOUT US PAGE *****************************/
@@ -889,7 +889,7 @@ height: 100%;
 .ourteam .staff-card h6{
     color: #000;
 }
-@media(max-width:991px){
+/*@media(max-width:991px){
     .image-col{
 margin-bottom:120px;
 min-height:400px;
@@ -938,7 +938,7 @@ margin-top:30px;
 margin-bottom:30px;
 
 }
-}
+}/*
 
 /****************ANIMATION***********************/
 
